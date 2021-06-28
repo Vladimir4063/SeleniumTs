@@ -1,0 +1,17 @@
+Como localizar elementos: PYTHON
+
+1: id
+2: name
+3: link text
+4: partial linktext
+5: tag name
+6: class name
+7: css selector
+
+navegador = driver.find_element_by_id
+navegador = driver.find_element_by_name
+navegador = driver.find_element_by_link_text
+navegador = driver.find_element_by_partial_link_text #singular
+navegador = driver.find_element_by_tag_name #sing.
+navegador = driver.find_element_by_class_name
+navegador = driver.find_element_by_css_selector

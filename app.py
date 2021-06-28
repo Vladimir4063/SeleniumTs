@@ -7,9 +7,9 @@ driver = webdriver.Chrome('driver/chromedriver.exe') #ruta del driver
 driver.get('https://cursos.polotic.misiones.gob.ar/login.php')
 time.sleep(5)
 
-user_box = driver.find_element_by_name('username')
+user_box = driver.find_element_by_name('username') #name=html
 pass_box = driver.find_element_by_name('password')
-submit_button = driver.find_element_by_class_name('btn')
+submit_button = driver.find_element_by_class_name('btn') #class
 
 user_box.send_keys('vladimirgutierrez4063@gmail.com')
 pass_box.send_keys('Contravlady97')
