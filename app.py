@@ -3,7 +3,7 @@ import time
 
 driver = webdriver.Chrome('driver/chromedriver.exe') #ruta del driver
 
-# llamamaos al navegador
+# llamamos al navegador
 driver.get('https://cursos.polotic.misiones.gob.ar/login.php')
 time.sleep(5)
 
